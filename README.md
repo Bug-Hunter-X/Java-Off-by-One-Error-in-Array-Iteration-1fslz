@@ -1,0 +1,3 @@
+# Java Off-by-One Error Example
+
+This repository demonstrates a common off-by-one error in Java when iterating over arrays. The error occurs when the loop condition incorrectly includes the last element's index, leading to an `ArrayIndexOutOfBoundsException`. The solution shows the correct iteration using `i < arr.length`.  This simple example highlights a pitfall that can be easily missed but cause unexpected program crashes.
